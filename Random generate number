@@ -1,0 +1,21 @@
+import java.util.Random;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    //Code bro
+    public static void main(String[] args) {
+
+        Random random = new Random();
+
+        //PC always stars from 0, if you want to generate ramdom value from 1 to 6. +1 after().
+        int x = random.nextInt(6)+1;
+        double y = random.nextDouble();
+        boolean z = random.nextBoolean();
+
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+    }
+}
+
