@@ -1,0 +1,24 @@
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    //Code bro
+    public static void main(String[] args) {
+        //if statements = performs that a block of code if its condition evaluates to be true.
+        int age = 13;
+
+        if(age>=75){
+            System.out.println("You are boomer");
+        }
+        else if(age>=18){
+            System.out.println("you are adults");
+        }
+        else if(age>=13){
+            System.out.println("you are teenager");
+        }
+        else{
+            System.out.println("You are not an adults");
+        }
+    }
+}
+
