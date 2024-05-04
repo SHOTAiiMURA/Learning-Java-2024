@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //logical operator = thsese are used to connect two or more expression
+            //      && = (AND) both conditions must be true
+            //      || = (OR) either condition must be true
+            //      ! = (NOT) reverses boolean value of condition
+        //&&
+        int tempreture = 25;
+        if(tempreture > 30){
+            System.out.println("It is hot outside");
+        }
+        else if(tempreture >= 20 && tempreture <= 30){
+            System.out.println("It is Warm outside");
+        }
+        else {
+            System.out.println("It is cold outside");
+        }
+        // ||
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("You are playing a game! Press q or Q to quit");
+        String response = scanner.next();
+
+        if(response.equals("q")|| response.equals("Q")){
+            System.out.println("you quit the game");
+        }
+        else{
+            System.out.println("You are continue to play the game ....");
+        }
+    }
+}
