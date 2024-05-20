@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        //assuming we already prepare integar for this time.
+        a = 4;
+        b = -2;
+        c = 7;
+
+        //call quadSolver method
+        quadSolver(a,b,c);
+    }
+}
+    static void quadSolver(int a, int b, int c){
+        hanbetsu = b * b - 4 * a * c;
+
+
+    }
